@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".add_tasks">
+
+    <EditText
+        android:id="@+id/ORGtasks"
+        android:layout_width="265dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="556dp"
+        android:background="@drawable/input_pg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="12dp"
+        android:textStyle="bold"
+        android:text="organized tasks"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <EditText
+        android:id="@+id/task1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="432dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="task1"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/task2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="360dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="task2"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/task3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="289dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="task3"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="49dp"
+        android:textStyle="bold"
+        android:text="save" />
+
+    <EditText
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="130dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="score"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="32dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/addscore"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="199dp"
+        android:background="@drawable/input_pg"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:text="How mutch of points do you want to give a this objective ?"
+        tools:layout_editor_absoluteX="104dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="108dp" />
+
+</RelativeLayout>

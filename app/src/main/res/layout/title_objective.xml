@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".title_objective">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="223dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="462dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Add title to your objective"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginBottom="297dp"
+        android:textStyle="bold"
+        android:text="add" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="587dp"
+        android:background="@drawable/input_pg"
+        android:paddingVertical="15dp"
+        android:paddingHorizontal="10dp"
+        android:textStyle="bold"
+        android:text="objective Title" />
+</RelativeLayout>
